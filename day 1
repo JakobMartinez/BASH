@@ -1,0 +1,89 @@
+bash shell = interface to communicate with computer purpose is to give access of a program to talk to other programs
+bash has a history of command entered
+used to automate tasks
+VIEWS EVERYTHING AS A STRING
+; ends line
+
+ctrl u -deltes whole line
+ctrl l -clears screen
+history - history of commands
+!2021 -shows what was run at 2021
+man bash - opens man page
+man find -opens man page for find command
+G - end of man page g - start of man page
+q - quit
+case sensitive 
+/pattern search forward 
+?pattern search backwards
+n or shift n moves between search results
+> redirects to a file       man bash > bash.txt      prints man bash to this file replacing what was in there
+>> appends                  man bash >> bash.txt    appends to end of file adding on to what was already there
+alias   - another name for something can set up own alias for cmd can change someones favorite cmd to do what you want
+alias hello='echo "Hello from Alias."
+
+() are subshells
+(( )) arithmetic subshell
+{} 
+[]
+
+
+function hello() {echo "Hello from function";}
+hello
+Hello from function
+
+type -a hello    shows type
+unset hello      unsets it as fucntions are temporary and only exist in that shell
+
+
+ls ~     is home directory of that user 
+
+
+resources
+explainshell.com helps explain bash code
+type (curl cheat.sh/comamnd) in cmd and then enter cmd you want examples of like grep 
+
+
+
+BRACE EXPANSION
+ls {BASH,SSH,ZIP}   runs aganinst allw 
+touch file{1..10}.log     creates 10 new files with .log at end
+
+
+~/ $HOME home directory
+/etc/passwd absolute oaths
+./ .. relative paths 
+
+mkdir touch rm rmdir ls cd
+touch -t [[CC]YY]MMDDHHMM[.ss]    ls -lisa    rm -rf  rmdir -p  mkdir -p cd - 
+
+
+PROCCESSES and MEMORY
+ps --forest shows parent and child 
+ps -elf | grep (name) (looks for)
+
+kill killall
+kill -9  
+
+
+cat looks through  a file and print to  screen
+find finds files 
+find -d goes certain disrttance 
+find -mtime finds witin time
+find *.vim finds all .vims
+find -exacutable fidns all executwables
+find -iname bash.txt finds by name not case sensitivew -name is case sensitive
+
+
+whereis findss programs   whereis bash
+which bash shouws which kinds
+
+
+
+| takes standard output of one command makis input of anoyther
+
+ls | grep .log   looks for all .log files
+
+or 
+grep "-" man.txt
+
+
