@@ -1,11 +1,4 @@
-
-alias and functions are temporaryhash table is a tempray cache,find / -type s -exec echo {} 2>
-let the music play
-ohhhhhhh i just wanna dance the night awaygrep is a very powerful tool learn how to use
-bmkdir $HOME/11{23..56..11}mkdir $HOME/1123
-touch $HOME/1123/{1..5}.txt $HOME/1123/{6..9}~.txtORtouch ~/BASH/Temp/1123/{{1..5},{6..9}~}.txtcd $HOME/1123 | find -name *.txtfind ~/1123 -name *.txt* ! -name *~*mkdir ~/CUT
-find ~/1123 -name '*.txt' ! -name *~* -exec cp {} ~/CUT/ \;find /var -empty -printf "%i %f\n"
-search for empty files and directories and print them in the format of inode number, space, file name, and then new linefind / -inum 4026532575 -printf "%f\n"awk '{print}' file_name.txt
+-printf "%f\n"awk '{print}' file_name.txt
 !!!prints out everyting on the text file !!!awk '/latte {print}' menu.txt
 !!! shows everything involving the string/pattern "latte" !!!Awk '{print $1,$4}' file_name.txt
 !!! shows numbers with either 1 or 4 !!!tail /etc/passwd | awk -F: '{print $NF}'
