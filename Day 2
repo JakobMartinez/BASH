@@ -1,1 +1,32 @@
 
+alias and functions are temporaryhash table is a tempray cache,find / -type s -exec echo {} 2>
+let the music play
+ohhhhhhh i just wanna dance the night awaygrep is a very powerful tool learn how to use
+bmkdir $HOME/11{23..56..11}mkdir $HOME/1123
+touch $HOME/1123/{1..5}.txt $HOME/1123/{6..9}~.txtORtouch ~/BASH/Temp/1123/{{1..5},{6..9}~}.txtcd $HOME/1123 | find -name *.txtfind ~/1123 -name *.txt* ! -name *~*mkdir ~/CUT
+find ~/1123 -name '*.txt' ! -name *~* -exec cp {} ~/CUT/ \;find /var -empty -printf "%i %f\n"
+search for empty files and directories and print them in the format of inode number, space, file name, and then new linefind / -inum 4026532575 -printf "%f\n"awk '{print}' file_name.txt
+!!!prints out everyting on the text file !!!awk '/latte {print}' menu.txt
+!!! shows everything involving the string/pattern "latte" !!!Awk '{print $1,$4}' file_name.txt
+!!! shows numbers with either 1 or 4 !!!tail /etc/passwd | awk -F: '{print $NF}'
+!!! the NF is a representing "number of fields" !!!awk 'NR==3, NR==7 {print NR,1$,3$,4$}' file_name.txt
+!!! the NR specifies which lines to read out !!!sort file_name.txt
+!!! sorts alpha numerically, symbols first, then numbers, then letters !!!sort -o new_file.txt old_file.txt
+!!! the -o appends to a new file, -r reverses the way its appended !!!sort -u file_name.txt
+!!! removes EXACT duplicates !!!sort -n file_name.txt
+!!! sorts based off numbers negatives going first !!!sed 's/neword/oldword/g' file_name.txt
+!!! replaces all of "oldwords" with "newords" the "s" at the begining marks it as substitution and the "g" makes it global- (affects entire doc) !!!sed 's/neword/oldword/2' file_name.txt
+!!! replaces at the second occurrence of "oldwords" !!!sed '5 s/neword/oldword/' file_name.txt
+!!! replaces at the first occurence at the 5th line !!!uniq -c file_name.txt
+!!! returns the amount of times a string was repeated (case sensitive and only compares line above and below) !!!
+!!! in order to effecitvley use this command use sort and then pipe it into uniq !!!uniq -d file_name.txt
+!!! shows what strings are duplicates !!!uniq -D file_name.txt
+!!! shows ALL strings that are duplicate !!!!= is for strings and numbersif [[ 41 -ne 50 ]]; then
+    echo "41 is NOT 50"
+else
+    echo "41 IS 50"
+fi!!! "-eq" does not work with numbers !!!A=$(tail /etc/passwd)
+!!! puts the last 10 lines of etc/passwd into variable A !!!
+
+
+Message LCpl Quiroz, Isaiah J
