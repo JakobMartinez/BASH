@@ -24,3 +24,77 @@ $$ PID of current shell
  
  
  
+functions
+break code into managable blocks
+series of commands exeucuted in single command
+
+
+must declare function adn call it 
+
+
+myfunc() {
+echo Hello I am a function
+#THis is a commetn
+}
+
+myfunc
+Hello I am a function
+
+
+vim yourmom
+#!/bin/bash
+
+function getuser()
+{
+     echo "Make a choice [1,2,3]:"
+     read userchoice 
+     case $userchoice in
+       (1) echo one ;;
+       (2) echo two ''
+       (3) echo three ;;
+       (*) echo other ;;
+     esac
+ }
+ getuser
+ 
+ 
+ 
+ 
+ variable subsitution
+ substituting variable with its value
+ 
+ fun2() {
+ #simple varaibele subsittution 
+     name="John"
+     echo $name
+ }
+ 
+ 
+ 
+ 
+ fun2() {
+    #Var Sub within double quotes
+    name="John"
+    echo "My name is $name"
+}
+
+fun3()  {
+#var sub within singele quotes
+  name="John"
+  echo 'My name is $name'     will print $name not John bc singlw quotes
+  
+  }
+  
+  
+fun4() {
+#curly braces tp se[erate varoan'es
+ name="John"
+ echo "My name is $nameny5"       prints nothing bc no variabel names nameny5
+ echo "My name is ${name}ny5"     Johnny5
+}
+
+fun5() {
+  #curly braces and values to sub
+   name="John"
+   echo "My name is $name:0:2}"     My name is Jo
+}
