@@ -14,7 +14,7 @@ special prameters
 $I $0 $# $* $! $? $_ $$ $@ $- 
 
 echo $# number of argument spasswed to a script
-$0 name of a script
+$0 name of a script 
 $2 poiston2 
 $* number of arguments passed
 $? exit status of last command usaally 0 means worked can be edited
