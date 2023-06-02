@@ -1,0 +1,26 @@
+paramater  =  entity that stores a value ( can be a name (variable), number (postitional parameter), or s[ecial character( special parameter))
+varaible is assigning name and sotring it( not a parameter but is a parameter denotted by name)
+
+
+variable
+identifier="hellowaorld"
+no spaces next to equal sign
+a="Hello WORLD"
+echo $a when trying to reference a variable
+"Hello World
+
+
+special prameters
+$I $0 $# $* $! $? $_ $$ $@ $- 
+
+echo $# number of argument spasswed to a script
+$0 name of a script
+$2 poiston2 
+$* number of arguments passed
+$? exit status of last command usaally 0 means worked can be edited
+$_ last argument provided
+$$ PID of current shell
+ $- flags set
+ 
+ 
+ 
