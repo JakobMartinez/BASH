@@ -1,0 +1,59 @@
+#!/bin/bash
+
+for x in { maschiato, mocha , latte , 'black coffee' };
+do
+    echo $x
+done
+
+
+
+
+#!/bin/bash
+for x in $(cat /etc/passwd | awk -F: '{print $1}')
+  do echo $x is a user on this system
+done
+
+
+#!/bin/bash
+
+while [ tests ]
+do
+    commands 
+done
+
+
+
+#!/bin/bash
+
+a=0
+while [ $a -lt 10 ] 
+do
+  echo $a
+  a='expr $a + 1'
+done
+
+#!/bin/bash
+
+counter=1
+while [ $counter -le 10 ]
+  do
+    echo $counter
+    ((counter++))                           want to do math do double (( ))   doing counter++ is same as doing 'expr $coutner + 1'
+  done
+  echo all done
+  
+  
+
+#!/bin/bash
+
+a=0
+until [ $a -gt 10 ]
+do
+    echo $a 
+    a='expr $a + 1'
+done
+  
+  
+
+
+#!/bin/bash
