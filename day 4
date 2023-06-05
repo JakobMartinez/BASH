@@ -1,3 +1,6 @@
+curl cht.sh/command or loop
+
+
 #!/bin/bash
 
 for x in { maschiato, mocha , latte , 'black coffee' };
